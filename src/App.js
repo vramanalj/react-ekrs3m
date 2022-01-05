@@ -4,7 +4,6 @@ import axios from 'axios';
 
 export default function App() {
   const [name, setName] = useState('Venkat');
-  const [list, setList] = useState([]);
 
   const setInput = (e) => {
     setName(e.target.value);

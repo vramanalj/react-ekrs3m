@@ -15,11 +15,7 @@ export default function App() {
     // Use query string with https://api.nationalize.io/ to get data from API.
     // e.g. https://api.nationalize.io?name=michael
 
-    //Insert code here
-    axios.get(url + '?name=' + name).then((res) => {
-      console.log(res.data);
-      setList(res.data.country);
-    });
+    //Insert code here to fetch data from API
   };
 
   return (
@@ -40,14 +36,6 @@ export default function App() {
       <h2 style={{ 'text-align': 'center' }}>Countries with probability</h2>
       <div className="dataList">
         {/* insert code here to display list of possible countries sorted by highest probability */}
-        {list.map((entry) => {
-          return (
-            <div className="listEntry">
-              <div>{entry.country_id}</div>
-              <div>{entry.probability}</div>
-            </div>
-          );
-        })}
       </div>
     </div>
   );

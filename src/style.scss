@@ -30,19 +30,4 @@ body * {
       padding: 15px;
     }
   }
-
-  .dataList {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-flow: column;
-    padding-top: 10px;
-
-    .listEntry {
-      display: flex;
-      justify-content: space-between;
-      width: 50%;
-      margin: 5px;
-    }
-  }
 }

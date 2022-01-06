@@ -34,7 +34,7 @@ export default function App() {
       </div>
       <h2 style={{ 'text-align': 'center' }}>Countries with probability</h2>
       <div className="dataList">
-        {/* insert code here to display list of possible countries sorted by highest probability */}
+        {/* insert code here to display list of possible countries */}
       </div>
     </div>
   );
